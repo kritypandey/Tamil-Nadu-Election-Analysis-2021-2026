@@ -1,139 +1,53 @@
-# Tamil Nadu Election Analysis (2021–2026)
+# Research Questions
 
-## Project Overview
+## Research Question 1 – Geographic Story ✅
 
-This project analyzes Tamil Nadu Assembly Election results from 2021 and 2026 to identify political power shifts, regional dominance, seat distribution changes, and emerging political trends.
+How did seat distribution shift across Tamil Nadu's six regions between 2021 and 2026?
 
-The analysis follows a complete data analytics workflow including data understanding, data cleaning, SQL-based analysis, and business insight generation.
+### Key Findings
 
----
-
-## Problem Statement
-
-Tamil Nadu's political landscape underwent significant changes between the 2021 and 2026 Assembly Elections.
-
-The objective of this project is to:
-
-* Compare election outcomes between 2021 and 2026
-* Identify regional power shifts
-* Analyze party-wise seat distribution
-* Detect emerging political movements
-* Generate actionable insights from election data
+* DMK dominated 5 of 6 regions in 2021.
+* TVK emerged as the largest party in 2026.
+* Chennai Metro experienced the largest political shift.
+* DMK retained dominance only in the Delta region.
 
 ---
 
-## Tools Used
+## Research Question 2 – Flip Story ✅
 
-* Microsoft Excel (Data Cleaning & Validation)
-* PostgreSQL (Data Analysis)
-* Power BI (Visualization & Dashboarding)
-* GitHub (Project Documentation)
+In how many constituencies did the winning party change between 2021 and 2026?
 
----
+### Key Findings
 
-## Project Workflow
-
-Dataset Understanding
-
-↓
-
-Data Cleaning
-
-↓
-
-PostgreSQL Analysis
-
-↓
-
-Research Question Analysis
-
-↓
-
-Insight Generation
-
-↓
-
-Power BI Dashboard
-
-↓
-
-Final Presentation
+* 162 constituencies flipped.
+* 71 constituencies were retained.
+* Nearly 70% of constituencies changed political leadership.
+* DMK → TVK was the most common constituency transition.
+* TVK was the largest beneficiary of constituency flips.
 
 ---
 
-## Datasets Used
+## Research Question 3 – Vote Share Story ✅
 
-### constituency_master.csv
+Where did TVK's votes come from?
 
-Contains constituency information including:
+### Key Findings
 
-* Constituency Name
-* AC Number
-* Reserved Category
-* Region
-
-### tn_2021_results.csv
-
-Contains 2021 election results including:
-
-* Candidate
-* Party
-* Votes
-* Turnout
-* Region
-
-### tn_2026_results.csv
-
-Contains 2026 election results including:
-
-* Candidate
-* Party
-* Votes
-* Region
+* TVK secured 34.92% vote share in 2026.
+* DMK vote share declined by 13.51 percentage points.
+* AIADMK vote share declined by 12.08 percentage points.
+* TVK attracted support from multiple parties rather than a single voter base.
+* Chennai Metro, South, and Kongu regions contributed significantly to TVK's rise.
 
 ---
 
-## Research Questions
+# Project Status
 
-### Research Question 1
+✅ Research Question 1 Completed
 
-How did seat distribution shift across Tamil Nadu's regions between 2021 and 2026?
+✅ Research Question 2 Completed
 
-**Status:** Completed ✅
+✅ Research Question 3 Completed
 
-### Research Question 2
+🎯 Core Election Analysis Completed
 
-To be completed.
-
-### Research Question 3
-
-To be completed.
-
----
-
-## Key Findings (So Far)
-
-* DMK dominated 5 out of 6 regions in 2021.
-* AIADMK maintained its stronghold in the Kongu region in 2021.
-* TVK emerged as the largest party in 2026 with 107 seats.
-* TVK captured Chennai Metro, South, and Kongu regions.
-* DMK retained leadership only in the Delta region.
-
----
-
-## Repository Structure
-
-```text
-docs/
-sql/
-results/
-dashboard/
-```
-
----
-
-## Author
-
-Krity Pandey
-
-Aspiring Data Analyst | SQL | Excel | Power BI
